@@ -3,8 +3,8 @@ FROM openjdk:11
 
 WORKDIR /app
 
-COPY Calculator.java .
+COPY App.java .
 
-RUN javac Calculator.java
+RUN javac App.java
 
-CMD ["java", "Calculator"]
+CMD ["java", "App"]
